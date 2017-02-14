@@ -1,0 +1,195 @@
+.picture-selected div {
+    color: #000;
+}
+
+.picture-selected {
+    background-image: linear-gradient(bottom, rgb(184, 184, 184) 43%,
+        rgb(210, 214, 217) 80% );
+    background-image: -o-linear-gradient(bottom, rgb(184, 184, 184) 43%,
+        rgb(210, 214, 217) 80% );
+    background-image: -moz-linear-gradient(bottom, rgb(184, 184, 184) 43%,
+        rgb(210, 214, 217) 80% );
+    background-image: -webkit-linear-gradient(bottom, rgb(184, 184, 184) 43%,
+        rgb(210, 214, 217) 80% );
+    background-image: -ms-linear-gradient(bottom, rgb(184, 184, 184) 43%,
+        rgb(210, 214, 217) 80% );
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.43, rgb(184
+        , 184, 184) ), color-stop(0.8, rgb(210, 214, 217) ) );
+    color: white;
+}
+
+.pictures-collection {
+    float: left;
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid rgb(184, 184, 184);
+    font-size: 12px;
+    text-align: center;
+    margin-right:40px;
+        width: 130px;
+        height: 200px;
+}
+
+.pictures-list {
+    clear: left;
+    float: left;
+    margin-bottom: 15px;
+    margin-left: 15px;
+        height: 300px;
+}
+
+.image_carousel img {
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 9px;
+    margin: 7px;
+    display: block;
+    float: left;
+}
+.carousel_button {
+    position: relative;
+    left: 300px;
+}
+#foo2_next{
+    width: 200px;
+}
+#foo2_prev{   
+    width: 200px;
+}
+.pagination {
+    text-align: center;
+}
+.pagination a {
+    /*background: url(../images/miscellaneous_sprite.png) 0 -300px no-repeat transparent;*/
+    width: 15px;
+    height: 15px;
+    margin: 0 5px 0 0;
+    display: inline-block;
+}
+.pagination a.selected {
+    background-position: -25px -300px;
+    cursor: default;
+}
+.pagination a {
+    display: none;
+}
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+#pictures-results-filter-button {
+    display: block;
+    position: relative;
+    left: 20px;
+}
+
+.crop-pictures-filters {
+    float: left;
+    border-right: #ccc;
+    border-style: none solid none none;
+    position: relative;
+    display: block;
+    margin: 20px;
+    width: 15%;
+    height:500px;
+}
+
+.pictures-details{
+    float:left;
+    height: 500px;
+    width: 75%;
+    margin: 20px;
+}
+
+.html_carousel {
+    float: left;
+    padding: 7px 0 15px 40px;
+    position: relative;
+    display: block;
+    bottom: 20px;
+    left: 16.5%;
+    border: #ccc;
+    border-style: solid none none solid;
+    width:80%;
+    height: 310px;
+}
+
+div#picture-preview-image {
+    float: left;
+    width: 325px;
+    height: 550px;
+}
+.picture-data{
+    float: left;
+}
+
+#preview-picture{
+    position: relative;
+    max-height: 480px     
+}
+
+.picture-geodata{
+    margin: 20px;
+    float: left;
+    border: gainsboro;
+    border-style: solid;
+    padding: 20px;
+    border-radius: 10px;
+    background: gainsboro;
+    height: 155px;
+}
+.picture-microclimate{
+    margin: 20px 0px 0px 10px;
+    float: left;
+    border: gainsboro;
+    border-style: solid;
+    padding: 20px;
+    border-radius: 10px;
+    background: gainsboro;
+    height: 155px;
+}
+#compare-button{
+    position:absolute;
+    left: 480px;
+    top: 680px;
+}
+#picture-map{
+    float: left;
+    width: 200px;
+    height: 180px;
+    margin: 30px;
+}
+
+.info_label{
+    float: left;
+    font-weight: bold;
+}
+.picture_information{
+    padding-left: 30px;
+    margin-left: 100px;
+}
+
+.error {
+    width:200px;
+    height:20px;
+    height:auto;
+    position:absolute;
+    left: 480px;
+    top: 680px;
+    background-color: #383838;
+    color: #F0F0F0;
+    font-family: Calibri;
+    font-size: 20px;
+    padding:10px;
+    text-align:center;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+    -moz-box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+    box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+}
+
+#pictures-results-infection-button{
+    margin-left: 5px;
+    margin-top: 10px;
+}
